@@ -30,7 +30,7 @@ const Sidebar = () => {
     <div className={`${minify ? 'h-screen w-[60px] hidden md:flex flex-col justify-between bg-[#212121] px-1 relative' : 'h-screen w-1/5 hidden md:flex flex-col justify-between bg-[#212121] px-3 relative'}`}>
       <button className='absolute top-24 -right-4 w-10 h-10 bg-blue-600 rounded-full text-white flex justify-center items-center'onClick={handleMinify}>
         {
-          minify === localStorage.getItem("minify")          ? (
+          minify ? (
             <MdArrowForwardIos/>
             ) : (
             <MdArrowBackIosNew/>
