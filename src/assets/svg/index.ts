@@ -1,3 +1,4 @@
-import Logo from './logo.svg'
+import SeeOutlinedIcon from './see-outlined.svg'
+import ClosedEye from './closed-eye.svg'
 
-export { Logo }
+export { SeeOutlinedIcon, ClosedEye }
